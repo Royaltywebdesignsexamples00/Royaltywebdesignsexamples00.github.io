@@ -1,0 +1,131 @@
+html body {
+	background-color: black;
+	max-height: 100%;
+	max-width: 100%;
+	font-family: 'Playfair Display', Georgia, serif;
+}
+
+
+
+.navbar {
+	 margin-bottom: 0;
+	 background-color: Black !important;
+	 font-size: 18px;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #ff8080 !important;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ff8080 !important;
+    background-color: #fff !important;
+}
+
+.navbar-right {
+	font-size: 25px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+#landing {
+	background-image: url("img/girl1.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#title {
+	text-align: right;
+	padding: 25% 10%;
+}
+
+#title h1 {
+	font-size: 60px;
+	color: White !important;
+}
+
+#location {
+	text-align: center;
+	margin-bottom: 0px;
+	padding: 60px 5px;
+}
+
+#location h1 {
+	font-size: 40px;
+}
+
+#location p {
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+
+#location ul {
+	font-size: 20px;
+	list-style-type: none;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	list-style-position: center;
+}
+
+.border-right{
+	border-color: Black;
+}
+#services {
+	background-color: #ff8080;
+	padding: 40px 20px;
+	margin-bottom: 100px;
+}
+
+#services h1 {
+	font-size: 40px;
+	text-decoration: underline;
+	padding-bottom: 40px;
+}
+
+#services h4 {
+	padding-bottom: 15px;
+}
+
+#services ul {
+	list-style-type: none;	
+	list-style-type: center;
+	padding-right: 40px;
+	font-size: 20px;
+}
+
+								/* Work Section*/
+
+#work {
+	padding: 20px;
+	margin-bottom: 100px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 75%;
+    margin: auto;
+}
+
+#contact {
+  	background-color: #ff8080;
+  	padding: 40px;
+  }
+
+#contact h1 {
+	font-size: 40px;
+	padding-bottom: 40px;
+	text-decoration: underline;
+}
+
+#contact p {
+	font-size: 18px;
+}
+
+#contact a {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: Black;
+	font-size: 25px;
+}
